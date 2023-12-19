@@ -12,6 +12,12 @@
   margin-bottom: 32px;
 }
 
+@media screen and (max-width: 1024px) {
+  .controlPane:not(:last-child) {
+    margin-right: 24px;
+  }
+}
+
 .title {
   margin: 0;
   /* Optical centering */
